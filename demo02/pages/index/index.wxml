@@ -1,4 +1,27 @@
 <!--index.wxml-->
 <view class="container">
   Weixin
+  <swiper 
+  autoplay 
+  indicator-dots
+  indicator-color="#00FF00"
+  interval="500"
+  circular
+>
+  <swiper-item>
+    <image src="../../images/home.png" mode="aspectFit"/>
+  </swiper-item>
+  <swiper-item>
+    <image src="../../images/home_select.png" mode="aspectFit"/>
+  </swiper-item>
+  <swiper-item>
+    <image src="../../images/home.png" mode="aspectFit"/>
+  </swiper-item>
+</swiper>
+<button size = "mini"> 我是个按钮 </button>
+</view>
+
+<view class = "tips">
+<text class="iconfont icon-xx"></text>
+<text>欢迎使用该系统</text>
 </view>
